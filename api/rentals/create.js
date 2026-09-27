@@ -9,6 +9,7 @@ const POOLS = {
   luxor: { name: 'Luxor', url: 'stratum+tcp://btc.global.luxor.tech:700' },
   public: { name: 'Public Pool', url: 'stratum+tcp://public-pool.io:21496' },
   chauffagistes: { name: 'Chauffagistes', url: 'stratum+tcp://chauffagistes-pool.fr:3333' },
+  btc_pow_lab: { name: 'BTC PoW Lab', url: 'stratum+tcp://stratum.btcpowlab-pool.com:3333' },
 }
 
 const INVOICE_TTL_MS = 60 * 60 * 1000 // 1 hour
