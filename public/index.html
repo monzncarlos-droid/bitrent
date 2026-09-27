@@ -215,6 +215,7 @@
           <option value="foundry">Foundry USA</option>
           <option value="luxor">Luxor</option>
           <option value="chauffagistes">Chauffagistes Pool 🇫🇷</option>
+          <option value="btc_pow_lab">BTC PoW Lab (Hybrid Solo)</option>
         </select>
       </div>
       <div class="form-group">
@@ -323,7 +324,7 @@ let allMiners = [], filters = { available: false, sort: 'price' }
 const minersMap = new Map()
 let minerDurations = {}
 let activeRental = null, cockpitInterval = null
-const POOL_LABELS = { ocean: 'OCEAN', foundry: 'Foundry USA', luxor: 'Luxor', public: 'Public Pool', chauffagistes: 'Chauffagistes 🇫🇷' }
+const POOL_LABELS = { ocean: 'OCEAN', foundry: 'Foundry USA', luxor: 'Luxor', public: 'Public Pool', chauffagistes: 'Chauffagistes 🇫🇷', btc_pow_lab: 'BTC PoW Lab' }
 
 function esc(str) {
   return String(str == null ? '' : str)
